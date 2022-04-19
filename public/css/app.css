@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  --app-blue: #0282F9;
+  --app-heavy-grey: #303030;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+}
+
+.container .logo {
+  width: 100px;
+}
+
+.container .logo img {
+  width: 100%;
+}
+
+.container .main-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.container .main-nav ul {
+  display: contents;
+  list-style: none;
+}
+
+.container .main-nav ul .nav__item {
+  text-transform: uppercase;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container .main-nav ul .nav__item::after {
+  position: absolute;
+  content: "";
+  display: none;
+  right: 0;
+  left: 0;
+  bottom: -53px;
+  height: 4px;
+  background-color: var(--app-blue);
+}
+
+.container .main-nav ul .nav__item.active {
+  color: var(--app-blue);
+}
+
+.container .main-nav ul .nav__item.active::after {
+  display: block;
+}
+
+.container .main-nav ul .nav__item a {
+  text-decoration: none;
+  color: currentColor;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.container .main-nav ul .nav__item a:hover {
+  color: var(--app-blue);
+}
+

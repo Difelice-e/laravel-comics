@@ -1,26 +1,3 @@
-//
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-  
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-  
-body {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-    --app-blue: #0282F9;
-    --app-heavy-grey: #303030;
-}
-
-// @import 'header.scss'
-
 .container {
     display: flex;
     justify-content: space-between;
