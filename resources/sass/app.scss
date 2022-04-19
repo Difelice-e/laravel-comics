@@ -19,6 +19,14 @@ body {
     --app-heavy-grey: #303030;
 }
 
+.jumbo {
+    background-image: url('/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 20vw;
+}
+
 @import'../sass/header.scss';
 @import'../sass/footer.scss';
 

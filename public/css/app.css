@@ -18,8 +18,17 @@ body {
   --app-heavy-grey: #303030;
 }
 
+.jumbo {
+  background-image: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 20vw;
+}
+
 .banner {
   background-color: var(--app-blue);
+  font-size: 0.75rem;
   padding: 10px 20px;
 }
 
