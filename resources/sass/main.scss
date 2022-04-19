@@ -1,0 +1,62 @@
+main {
+    background-color: black;
+    color: white;
+    min-height: 150px;
+
+    .game-wrapper {
+        padding: 50px 30px 20px;
+        
+        
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            position: relative;
+            
+
+            .tag {
+                position: absolute;
+                left: 0;
+                top: 0;
+                transform: translate(0, -170%);
+                background-color: var(--app-blue);
+                padding: 10px 20px;
+                
+                h3 {
+                    color: white;
+                    text-transform: uppercase;
+                }
+            }
+
+            .game__item {
+                width: calc((100% / 6) - 20px);
+                padding: 10px 0;
+                    
+                    .game__image {
+                        object-fit: cover;
+                        object-position: center;
+                        aspect-ratio: 1/1;
+                        width: 100%;
+                    }
+                    
+            
+                    .game__title {
+                        text-transform: uppercase;
+                        color: white;
+                        font-size: 0.7rem;
+                        padding-top: 15px;
+                    }
+            }  
+            
+        }
+
+        button {
+            background-color: var(--app-blue);
+            color: white;
+            text-transform: uppercase;
+            padding: 10px 50px;
+        }
+    }
+}
