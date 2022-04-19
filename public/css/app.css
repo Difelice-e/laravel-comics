@@ -80,3 +80,78 @@ body {
   color: var(--app-blue);
 }
 
+footer .footer__link .container {
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 30px 10px 50px;
+}
+
+footer .footer__link .nav__menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 280px;
+  width: 380px;
+  gap: 10px;
+  list-style: none;
+}
+
+footer .footer__link .nav__menu h4 {
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 15px;
+}
+
+footer .footer__link .nav__menu .nav__link {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+footer .footer__link .nav__menu .nav__link a {
+  color: #626F7C;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+footer .footer__link .nav__menu .nav__link a:hover {
+  color: var(--app-blue);
+}
+
+footer .footer__social {
+  background-color: var(--app-heavy-grey);
+  padding: 30px 10px;
+}
+
+footer .footer__social .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer__social .container button {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: var(--app-blue);
+  padding: 8px;
+}
+
+footer .footer__social .container button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+footer .footer__social .container .social__link {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  list-style: none;
+}
+
+footer .footer__social .container .social__link a {
+  text-decoration: none;
+  color: var(--app-blue);
+  font-weight: 600;
+}
+

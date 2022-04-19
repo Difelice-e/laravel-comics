@@ -1,0 +1,86 @@
+footer {
+
+    .footer__link {
+        // background-image: asset('/img/footer-bg.jpg');
+        
+        .container {
+            // background-image: url('../assets/img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            padding: 30px 10px 50px;
+        }
+
+        .nav__menu {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 280px;
+            width: 380px;
+            gap: 10px;
+            list-style: none;
+            
+            h4 {
+                text-transform: uppercase;
+                color: white;
+                margin-bottom: 15px;
+            }
+
+            .nav__link {
+                margin-bottom: 15px;
+                list-style: none;
+
+                a {
+                    color: #626F7C;
+                    text-decoration: none;
+                    font-size: 0.7rem;
+
+                    &:hover {
+                        color: var(--app-blue);
+                    }
+                }
+            }
+        }
+
+    }
+
+    .footer__social {
+        background-color: var(--app-heavy-grey);
+        padding: 30px 10px;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            button {
+            text-transform: uppercase;
+            background-color: transparent;
+            border: 2px solid;
+            border-color: var(--app-blue);
+            padding: 8px;
+            
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 600;
+                
+                }
+            }
+
+            .social__link {
+                display: flex;
+                align-items: center;
+                gap: 18px;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: var(--app-blue);
+                    font-weight: 600;
+                }
+            }
+        }
+
+        
+    }
+}
