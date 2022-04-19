@@ -44,7 +44,17 @@ $navLink = [
 ?>
 
 <header>
-    <div class="container">
+    <div class="banner">
+        <div class="container container-banner">
+            <ul class="banner-list">
+                <li>DC Power Visa</li>
+                <li>Additional DC Sites</li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="container container-header">
         <picture class="logo">
           <img src="/img/dc-logo.png" alt="logo" />
         </picture>

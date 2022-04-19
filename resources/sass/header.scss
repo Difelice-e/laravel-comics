@@ -1,4 +1,26 @@
-.container {
+.banner {
+    background-color: var(--app-blue);
+    
+    padding: 10px 20px;
+
+    .container-banner {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .banner-list {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+
+        li {
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+}
+
+.container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;

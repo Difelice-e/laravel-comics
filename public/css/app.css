@@ -18,7 +18,28 @@ body {
   --app-heavy-grey: #303030;
 }
 
-.container {
+.banner {
+  background-color: var(--app-blue);
+  padding: 10px 20px;
+}
+
+.banner .container-banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner .banner-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.banner .banner-list li {
+  text-transform: uppercase;
+  color: white;
+}
+
+.container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,31 +47,31 @@ body {
   padding: 10px 10px;
 }
 
-.container .logo {
+.container-header .logo {
   width: 100px;
 }
 
-.container .logo img {
+.container-header .logo img {
   width: 100%;
 }
 
-.container .main-nav {
+.container-header .main-nav {
   display: flex;
   gap: 20px;
 }
 
-.container .main-nav ul {
+.container-header .main-nav ul {
   display: contents;
   list-style: none;
 }
 
-.container .main-nav ul .nav__item {
+.container-header .main-nav ul .nav__item {
   text-transform: uppercase;
   white-space: nowrap;
   position: relative;
 }
 
-.container .main-nav ul .nav__item::after {
+.container-header .main-nav ul .nav__item::after {
   position: absolute;
   content: "";
   display: none;
@@ -61,26 +82,31 @@ body {
   background-color: var(--app-blue);
 }
 
-.container .main-nav ul .nav__item.active {
+.container-header .main-nav ul .nav__item.active {
   color: var(--app-blue);
 }
 
-.container .main-nav ul .nav__item.active::after {
+.container-header .main-nav ul .nav__item.active::after {
   display: block;
 }
 
-.container .main-nav ul .nav__item a {
+.container-header .main-nav ul .nav__item a {
   text-decoration: none;
   color: currentColor;
   font-weight: 600;
   font-size: 0.75rem;
 }
 
-.container .main-nav ul .nav__item a:hover {
+.container-header .main-nav ul .nav__item a:hover {
   color: var(--app-blue);
 }
 
+footer .footer__link {
+  background-image: url("/img/footer-bg.jpg");
+}
+
 footer .footer__link .container {
+  background-image: url("/img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right;
   padding: 30px 10px 50px;
@@ -96,7 +122,7 @@ footer .footer__link .nav__menu {
   list-style: none;
 }
 
-footer .footer__link .nav__menu h4 {
+footer .footer__link .nav__menu .link-title {
   text-transform: uppercase;
   color: white;
   margin-bottom: 15px;

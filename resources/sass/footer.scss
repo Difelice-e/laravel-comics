@@ -1,10 +1,10 @@
 footer {
 
     .footer__link {
-        // background-image: asset('/img/footer-bg.jpg');
+        background-image: url('/img/footer-bg.jpg');
         
         .container {
-            // background-image: url('../assets/img/dc-logo-bg.png');
+            background-image: url('/img/dc-logo-bg.png');
             background-repeat: no-repeat;
             background-position: right;
             padding: 30px 10px 50px;
@@ -19,7 +19,7 @@ footer {
             gap: 10px;
             list-style: none;
             
-            h4 {
+            .link-title {
                 text-transform: uppercase;
                 color: white;
                 margin-bottom: 15px;

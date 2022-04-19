@@ -160,7 +160,7 @@ $footerMenu = [
 
                 @foreach($footerMenu as $value)
                 <li>
-                    <h4>{{ $value['title'] }}</h4>
+                    <h4 class="link-title">{{ $value['title'] }}</h4>
                     <ul class="nav__link">
 
                         @foreach($value['links'] as $links)
