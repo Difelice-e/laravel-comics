@@ -5,39 +5,39 @@ $navLink = [
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Comics',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Movies',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Tv',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Games',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Collectibles',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Videos',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Fans',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'News',
         'href'=>'#'
     ],
     [
-        'id'=>'Characters',
+        'id'=>'Shop',
         'href'=>'#'
     ]
 ];
