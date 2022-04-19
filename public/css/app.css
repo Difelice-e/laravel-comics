@@ -26,6 +26,16 @@ body {
   height: 20vw;
 }
 
+.shop {
+  height: 20vw;
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .banner {
   background-color: var(--app-blue);
   font-size: 0.75rem;

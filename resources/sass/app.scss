@@ -27,6 +27,16 @@ body {
     height: 20vw;
 }
 
+.shop {
+    height: 20vw;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
 @import'../sass/header.scss';
 @import'../sass/footer.scss';
 @import'../sass/main.scss';

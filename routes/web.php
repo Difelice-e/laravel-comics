@@ -229,3 +229,7 @@ Route::get('/', function () {
     ];
     return view('home')->with('comics',$comics);
 });
+
+Route::get('/shop', function () {
+    return view('shop');
+});

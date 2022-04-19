@@ -38,7 +38,7 @@ $navLink = [
     ],
     [
         'id'=>'Shop',
-        'href'=>'#'
+        'href'=>'/shop'
     ]
 ];
 ?>
