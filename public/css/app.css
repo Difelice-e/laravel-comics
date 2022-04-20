@@ -346,6 +346,7 @@ main .game-wrapper button {
 
 .comic-specs .container .talent-specs {
   width: calc((100% - 40px) / 2);
+  margin-bottom: 150px;
 }
 
 .comic-specs .container .talent-specs h3 {
@@ -391,5 +392,20 @@ main .game-wrapper button {
 
 .comic-specs .container .site-banner {
   width: 100%;
+}
+
+.comic-specs .container .site-banner ul {
+  list-style: none;
+  display: flex;
+}
+
+.comic-specs .container .site-banner ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  text-transform: uppercase;
+  color: grey;
+  border: 1px solid grey;
+  padding: 15px;
 }
 

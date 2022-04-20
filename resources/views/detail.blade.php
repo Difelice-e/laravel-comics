@@ -75,10 +75,22 @@
 
             <div class="site-banner">
                 <ul>
-                    <li>Digital Comics</li>
-                    <li>Shop DC</li>
-                    <li>Comic Shop Location</li>
-                    <li>Subscription</li>
+                    <li>
+                        Digital Comics
+                        <img src="img/buy-comics-digital-comics.png" alt="">
+                    </li>
+                    <li>
+                        Shop DC
+                        <img src="img/buy-comics-digital-comics.png" alt="">
+                    </li>
+                    <li>
+                        Comic Shop Location
+                        <img src="img/buy-comics-digital-comics.png" alt="">
+                    </li>
+                    <li>
+                        Subscription
+                        <img src="img/buy-comics-digital-comics.png" alt="">
+                    </li>
                 </ul>
             </div>
         </div>
