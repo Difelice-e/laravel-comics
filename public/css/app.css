@@ -281,6 +281,7 @@ main .game-wrapper button {
 
 .comic-wrapper .container .comic-info h1 {
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .comic-wrapper .container .comic-info .price-wrapper {
@@ -316,6 +317,12 @@ main .game-wrapper button {
   font-weight: 600;
 }
 
+.comic-wrapper .container .comic-info .comic-description {
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  color: grey;
+}
+
 .comic-wrapper .container .adv {
   text-align: right;
 }
@@ -324,5 +331,65 @@ main .game-wrapper button {
   text-transform: uppercase;
   margin-bottom: 10px;
   color: grey;
+}
+
+.comic-specs {
+  background-color: lightgrey;
+  padding-top: 20px;
+}
+
+.comic-specs .container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.comic-specs .container .talent-specs {
+  width: calc((100% - 40px) / 2);
+}
+
+.comic-specs .container .talent-specs h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.comic-specs .container .talent-specs .talent-info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+}
+
+.comic-specs .container .talent-specs .talent-info:first-child {
+  border: 1px solid grey;
+}
+
+.comic-specs .container .talent-specs .talent-info h5 {
+  white-space: nowrap;
+  width: 25%;
+}
+
+.comic-specs .container .talent-specs .talent-info p {
+  width: 70%;
+}
+
+.comic-specs .container .talent-specs .talent-info p a {
+  text-decoration: none;
+  color: var(--app-blue);
+  font-weight: 600;
+}
+
+.comic-specs .container .talent-specs .talent-info p a:not(:last-child)::after {
+  content: ",";
+  display: inline-block;
+  color: black;
+}
+
+.comic-specs .container .talent-specs .talent-info p a.series {
+  text-transform: uppercase;
+}
+
+.comic-specs .container .site-banner {
+  width: 100%;
 }
 
