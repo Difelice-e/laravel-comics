@@ -201,8 +201,6 @@ footer .footer__social .container .social__link a {
 }
 
 main {
-  background-color: black;
-  color: white;
   min-height: 150px;
 }
 
@@ -258,5 +256,73 @@ main .game-wrapper button {
   color: white;
   text-transform: uppercase;
   padding: 10px 50px;
+}
+
+.blue-band {
+  background-color: var(--app-blue);
+  height: 80px;
+  position: relative;
+}
+
+.blue-band img {
+  position: absolute;
+  bottom: 25px;
+}
+
+.comic-wrapper {
+  padding: 70px 0;
+}
+
+.comic-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.comic-wrapper .container .comic-info h1 {
+  text-transform: uppercase;
+}
+
+.comic-wrapper .container .comic-info .price-wrapper {
+  background-color: green;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.comic-wrapper .container .comic-info .price-wrapper .comic-price {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  border-right: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 15px;
+}
+
+.comic-wrapper .container .comic-info .price-wrapper .comic-price > span {
+  text-transform: uppercase;
+}
+
+.comic-wrapper .container .comic-info .price-wrapper .comic-price .price {
+  color: white;
+  font-weight: 600;
+}
+
+.comic-wrapper .container .comic-info .price-wrapper .available {
+  padding: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.comic-wrapper .container .adv {
+  text-align: right;
+}
+
+.comic-wrapper .container .adv h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: grey;
 }
 

@@ -1,0 +1,71 @@
+.blue-band {
+    background-color: var(--app-blue);
+    height: 80px;
+    position: relative;
+
+    img {
+        position: absolute;
+        bottom: 25px;
+    }
+}
+
+.comic-wrapper {
+    padding: 70px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+
+        .comic-info {
+
+            h1 {
+                text-transform: uppercase;
+            }
+
+            .price-wrapper {
+                background-color: green;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: rgba(255, 255, 255, 0.8);
+                // padding: 0 16px;
+                margin-bottom: 20px;
+
+                .comic-price {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-grow: 1;
+                    border-right: 2px solid rgba(0, 0, 0, 0.5);
+                    padding: 15px;
+
+                    &>span {
+                        text-transform: uppercase;
+                    }
+
+                    .price {
+                        color: white;
+                        font-weight: 600;
+                    }
+                }
+
+                .available {
+                    padding: 15px;
+                    color: white;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .adv {
+            text-align: right;
+
+            h2 {
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                color: grey;
+            }
+        }
+    }
+}
