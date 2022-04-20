@@ -6,7 +6,7 @@ $navLink = [
     ],
     [
         'id'=>'Comics',
-        'href'=>'#'
+        'href'=>'/'
     ],
     [
         'id'=>'Movies',
@@ -39,7 +39,12 @@ $navLink = [
     [
         'id'=>'Shop',
         'href'=>'/shop'
-    ]
+    ],
+    // [
+    //     'id'=>'Shop',
+    //     'routeName'=>'shop.index',
+    //     'routeParams' => []
+    // ]
 ];
 ?>
 
@@ -66,6 +71,12 @@ $navLink = [
               <a href="{{ $value['href'] }}">{{ $value['id'] }}</a>
             </li>
             @endforeach
+            
+            {{-- @foreach($navLinks as $link)
+                <li class="{{ Request::route()->getName() == $value['routeName'] ? 'active nav__item' : 'nav__item'}}">
+                    <a href="{{ route($value['routeName'], $value['routeParams']) }}">{{ $value['id'] }}</a>
+                </li>
+            @endforeach --}}
           </ul>
         </nav>
       </div>

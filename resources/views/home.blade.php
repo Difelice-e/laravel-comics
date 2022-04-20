@@ -8,14 +8,16 @@
                 <h3>Current Series</h3>
             </div>
 
-            @foreach($comics as $value)
-            <div class="game__item">
+            @foreach($comics as $indice => $value)
+
+            <a class="game__item" href="{{ route('prodotti.show', ['id' => $indice]) }}">
                 <figure>
                   <img class="game__image" src="{{ $value['thumb'] }}" alt="" />
                 </figure>
             
                 <h4 class="game__title">{{ $value['title'] }}</h4>
-            </div>
+            </a>
+
             @endforeach
 
             <button>
